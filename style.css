@@ -12,9 +12,9 @@ body {
 }
 
 body.dark {
-  --bg: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* deep bluish gradient */
-  --text: #e0e0e0;                  /* soft off-white text */
-  --card-bg: rgba(255, 255, 255, 0.05);  /* subtle translucent cards */
+  --bg: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  --text: #e0e0e0;                  
+  --card-bg: rgba(255, 255, 255, 0.05);  
 }
 
 body.dark .container {
@@ -68,7 +68,6 @@ h1 {
   margin-top: 20px;
 }
 
-/* Add to style.css */
 .forecast-container {
   display: flex;
   flex-wrap: wrap;
@@ -159,18 +158,12 @@ body {
   .toggle-controls {
     top: 3px;
     right: 3px;
-    /* flex-direction: column; */
   }
 
   .toggle-controls button {
     padding: 5px;
     font-size: 0.5rem;
   }
-
-  /* #cityInput{
-    width: 50px;
-  } */
-
 }
 
 @media (max-width: 480px) {
@@ -187,7 +180,6 @@ body {
     width: 50px;
     height: 50px;
   }
-
 }
 
 
