@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,26 +8,20 @@
 </head>
 <body>
   <div class="container">
-    <h1>🌤️ Weather Dashboard</h1>
-    <div class="search-box">
-      <input type="text" id="cityInput" placeholder="Enter city or ZIP code" />
-      <button onclick="getWeather()">Search</button>
-    </div>
-    <div id="weatherResult" class="weather-card"></div>
-
-     <!-- index.html के weatherResult div के बाद -->
-    <div id="forecastResult" class="forecast-container"></div>
-
+     <h1>🌤️ Weather Dashboard</h1>
+     <div class="search-box">
+       <input type="text" id="cityInput" placeholder="Enter city or ZIP code" />
+       <button onclick="getWeather()">Search</button>
+     </div>
+     <div id="weatherResult" class="weather-card"></div>
+     <div id="forecastResult" class="forecast-container"></div>
      <div id="loader" style="display:none;">Loading...</div>
      <div id="lastCity"></div>
-
-  </div>
-
-   <div class="toggle-controls">
-      <button onclick="toggleTheme()">🌓</button>
-      <button onclick="toggleLanguage()">🌐</button>
-    </div>
-
-  <script src="script.js"></script>
+     <div class="toggle-controls">
+       <button onclick="toggleTheme()">🌓</button>
+       <button onclick="toggleLanguage()">🌐</button>
+     </div>
+  </div> 
+   <script src="script.js"></script>
 </body>
 </html>
